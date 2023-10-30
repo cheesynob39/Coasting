@@ -121,7 +121,9 @@ local Tabs = Instance.new("Frame")
 local TabButtons = Instance.new("ImageLabel")
 local TabButtonLayout = Instance.new("UIListLayout")
 
-UILibrary.Name = HttpService:GenerateGUID(false)
+shared.uiName = HttpService:GenerateGUID(false)
+
+UILibrary.Name = shared.uiName
 UILibrary.Parent = CoreGui
 UILibrary.DisplayOrder = 1
 UILibrary.ZIndexBehavior = Enum.ZIndexBehavior.Global

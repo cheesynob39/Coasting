@@ -12,8 +12,8 @@ ContentProvider:PreloadAsync({"rbxassetid://3570695787", "rbxassetid://270889159
 
 local Library = {
     Theme = {
-        MainColor = Color3.fromRGB(255,116,0),
-        BackgroundColor = Color3.fromRGB(35, 35, 35),
+        MainColor = Color3.fromRGB(139, 0, 0),
+        BackgroundColor = Color3.fromRGB(34, 139, 34),
         UIToggleKey = Enum.KeyCode.RightControl,
         TextFont = Enum.Font.SourceSansBold,
         EasingStyle = Enum.EasingStyle.Quart
@@ -1433,7 +1433,6 @@ function Library:CreateTab(name)
                 Slash = "/",
                 Asterisk = "*",
                 Plus = "+",
-                Period = ".",
                 Backquote = "`",
                 MouseButton1 = "M1",
                 MouseButton2 = "M2",
